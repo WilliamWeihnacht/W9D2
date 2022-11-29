@@ -70,7 +70,13 @@ class Game {
         this.checkCollisions();
     }
 
+    remove(asteroid) {
 
+    } 
+
+    collideWith() {
+        
+    }
 
 }
 
