@@ -10,7 +10,8 @@ class GameView {
         // setInterval(this.game.moveObjects(),20);
         // setInterval(this.game.draw(ctx), 20)
         setInterval(()=>{
-            this.game.moveObjects();
+            //this.game.moveObjects();
+            this.game.step();
             this.game.draw(ctx);
         }, 20);
     }

@@ -17,15 +17,17 @@ canvas.height = 500;
 // canvas.setAttribute("height",gameView.game.DIM_Y);
 gameView.start();
 
-const mo = new MovingObject({
-    pos: [30, 30],
-    vel: [10, 10],
-    radius: 5,
-    color: "black"
-});
+// const mo = new MovingObject({
+//     pos: [30, 30],
+//     vel: [10, 10],
+//     radius: 5,
+//     color: "black"
+// });
 
-mo.draw(ctx);
-const asteroid = new Asteroid({ pos: [170, 170] });
-asteroid.draw(ctx);
+// mo.draw(ctx);
+// const asteroid = new Asteroid({ pos: [170, 170] });
+// asteroid.draw(ctx);
+
+console.log(Util.distance([0,0],[2,2]));
 
 console.log("Webpack is working!")
